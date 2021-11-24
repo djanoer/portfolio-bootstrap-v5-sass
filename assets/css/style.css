@@ -11120,7 +11120,7 @@ textarea.form-control-lg {
 }
 .btn-rounded {
   position: relative;
-  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+  padding: 0.35rem 3.75rem 0.35rem 1.25rem;
   font-weight: 700;
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
@@ -11134,8 +11134,8 @@ textarea.form-control-lg {
 .btn-rounded span {
   position: absolute;
   background-color: #d63384;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
   top: 50%;
   right: 5px;
   transform: translateY(-50%);
@@ -11144,7 +11144,7 @@ textarea.form-control-lg {
 .btn-rounded span i {
   color: #fff;
   font-size: 1rem;
-  line-height: 2.5rem;
+  line-height: 1.75rem;
 }
 .btn-rounded:hover {
   background: linear-gradient(to left, rgba(153, 38, 240, 0.95), rgba(214, 51, 132, 0.95));
