@@ -7,9 +7,11 @@
     <title>Learn Bootstrap v5 with Sass</title>
 
     <!-- style.css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <!-- fontawesome -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
+    <!-- glightbox -->
+    <link rel="stylesheet" href="/assets/vendors/css/glightbox.min.css">
 
     <!-- Google Fonts Poppins-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
@@ -83,7 +85,7 @@
                 <div class="col-md-6 intros text-end">
                     <div class="video-box">
                         <img src="images/arts/Intro-Marketing _Monochromatic.svg" alt="video illustration" class="img-fluid">
-                        <a href="#" class="position-absolute top-50 start-50 translate-middle">
+                        <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
                           <span>
                             <i class="fas fa-play-circle"></i>
                           </span>
@@ -101,6 +103,21 @@
     <!-- End the intro section -->
 
 
+    <!-- glightbox js -->
+    <script src="/assets/vendors/js/glightbox.min.js"></script>
+
+    <!-- Lightbox Options Javascript src: https://www.npmjs.com/package/glightbox -->
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'href': 'https://www.youtube.com/watch?v=iJKCj8uAHz8',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoPlayVideos': 'true',
+      });
+    </script>
+
+    <!-- bootstarp js -->
     <script src="/assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>
