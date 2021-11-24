@@ -1,6 +1,14 @@
 @use '../custom' as *;
 
-// GRADIEN MIXIN
+// GRADIEN MIXIN (membuat gradien/mix)
 @mixin gradient {
     background: linear-gradient(to left, rgba($primary,0.95), rgba($secondary,0.95));
+}
+
+// ABSOLUTE CENTER (membuat tata letak button play pada section intro)
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
