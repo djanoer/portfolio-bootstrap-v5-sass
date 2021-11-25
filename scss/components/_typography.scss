@@ -1,5 +1,6 @@
 @use '../custom' as *;
 
+// untuk mengatur susunan/tampilan font pada intro section
 .display-2 {
     margin-bottom: 1rem;
     text-transform: capitalize;
@@ -22,4 +23,25 @@
             display: inline-block;
         }
     }
+}
+
+// HEADING LINE (untuk membuat garis bawah pada campanies section)
+.heading-line::before {
+    content: "";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $primary;
+}
+
+.heading-line::after {
+    content: "";
+    width: 2rem;
+    padding-top: 0.5rem;
+    height: 0.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: $primary;
 }
