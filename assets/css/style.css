@@ -11207,6 +11207,15 @@ textarea.form-control-lg {
   background-color: #9926f0;
 }
 
+.display-3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
+}
+
 .menu {
   background: linear-gradient(to left, rgba(153, 38, 240, 0.95), rgba(214, 51, 132, 0.95));
 }
